@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .page {
+    height: 100vh;
+    background: linear-gradient(135deg, #1b0010, #3a001f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    width: 420px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #3a001f;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .heart {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .yes-btn {
+    background: linear-gradient(135deg, #ff4d8d, #ff2d6f);
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .no-btn {
+    background: linear-gradient(135deg, #2a0015, #000);
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
